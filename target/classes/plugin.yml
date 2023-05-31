@@ -5,3 +5,12 @@ api-version: 1.19
 authors: [Simon_Xz]
 description: Test Plugin
 website: https://discord.gg/aDPXnY7VZF
+commands:
+  heal:
+    description: heals the player.
+    aliases: Heal
+    permission-message: You don't have enough permissions to heal yourself.
+  god:
+    permission-message: You don't have enough permissions to be a god.
+    description: makes the user unkillable
+    aliases: God
