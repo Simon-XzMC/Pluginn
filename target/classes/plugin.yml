@@ -14,3 +14,5 @@ commands:
     permission-message: You don't have enough permissions to be a god.
     description: makes the user unkillable
     aliases: God
+  config:
+    aliases: Config

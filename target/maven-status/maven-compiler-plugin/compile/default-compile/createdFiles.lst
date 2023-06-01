@@ -1,3 +1,4 @@
 com\simonxz\plugin\HealCommand.class
 com\simonxz\plugin\Plugin.class
+com\simonxz\plugin\ConfigCommand.class
 com\simonxz\plugin\GodCommand.class

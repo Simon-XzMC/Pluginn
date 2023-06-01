@@ -11,6 +11,11 @@ public final class Plugin extends JavaPlugin implements Listener {
         // Plugin startup logic
         getCommand("heal").setExecutor(new HealCommand());
         getCommand("god").setExecutor(new GodCommand());
+        getCommand("config").setExecutor(new ConfigCommand(this));
+
+        getConfig().options().copyDefaults();
+        saveDefaultConfig();
+
     }
 
 

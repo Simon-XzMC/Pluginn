@@ -1,0 +1,17 @@
+Word: 'Banana'
+# This is a comment
+Number: 420
+Boolean: true
+String-List:
+  - 'Value1'
+  - 'Value2'
+  - 'Value3'
+
+
+#Test: ''
+#  Test1: ''
+ # Test2:
+ #   Test2.1: ''
+    # Test.Test2.Test2.1
+ # Test3: ''
+    #Test.Test3
