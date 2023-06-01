@@ -22,11 +22,11 @@ public class ConfigCommand implements CommandExecutor {
 
 
             // Setting values to config when command runs
-            plugin.getConfig().set("Word", "Cake");
-            List<String> list = plugin.getConfig().getStringList("String-List");
-            list.add("New Value!");
-            plugin.getConfig().set("String-List", list);
-            plugin.saveConfig();
+            //plugin.getConfig().set("Word", "Cake");
+            //List<String> list = plugin.getConfig().getStringList("String-List");
+            //list.add("New Value!");
+            //plugin.getConfig().set("String-List", list);
+            //plugin.saveConfig();
 
 
             // reading values from config when command runs
